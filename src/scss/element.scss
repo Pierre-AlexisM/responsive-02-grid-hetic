@@ -1,0 +1,44 @@
+.el {
+  background-color: lightgray;
+  &--otherNonMetal {
+    background-color: hsl(0, 80%, 60%);
+  }
+  &--nobleGas {
+    background-color: hsl(40, 80%, 60%);
+  }
+  &--alkaliMetal {
+    background-color: hsl(80, 80%, 60%);
+  }
+  &--alkalineEarthMetal {
+    background-color: hsl(120, 80%, 60%);
+  }
+  &--metalloid {
+    background-color: hsl(160, 90%, 50%);
+  }
+  &--transitionMetal {
+    background-color: hsl(2000, 80%, 60%);
+  }
+  &--postTransitionMetal {
+    background-color: hsl(240, 70%, 60%);
+  }
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+article {
+  margin: 3px;
+}
+p {
+  text-align: center;
+  margin: 2vh;
+  font-size: 18px;
+}
+abbr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24px;
+  font-weight: bold;
+  font-size: 24px;
+}
