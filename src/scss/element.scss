@@ -1,4 +1,4 @@
-$types: alkaliMetal lanthanide nobleGas transitionMetal postTransitionMetal
+$types: alkaliMetal lanthanides nobleGas transitionMetal postTransitionMetal
   alkalineEarthMetal actinide metalloid otherNonMetal;
 $step: 360deg / length($types);
 @mixin landscape {
@@ -42,10 +42,10 @@ abbr {
     font-size: 10px;
   }
   body {
-    grid-template-rows: repeat(7, 14.2vh);
+    grid-template-rows: repeat(9, 13.11vh);
     grid-template-columns: repeat(18, 5.55vw);
   }
-  @for $i from 1 through 7 {
+  @for $i from 1 through 9 {
     [data-period="#{$i}"] {
       grid-row: $i;
     }
